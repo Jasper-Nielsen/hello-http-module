@@ -62,11 +62,10 @@
         res.send(usersJson);
             })
     
-            
+
 
               
             app.post("/posts", async (req, res) => {
-
 
               const post = {
                 
